@@ -1,3 +1,9 @@
+# Site settings
+title: "lucky hong"
+description: "lucky hong"
+baseurl: "lucky-the-ducky.github.io"
+url: "luckyh.ong"
+
 # Where things are
 source              : .
 destination         : ./_site
