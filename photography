@@ -1,0 +1,15 @@
+---
+title: testpage
+permalink: /photography/
+---
+<!DOCTYPE html>
+<html>
+<style>
+</style>
+<body>
+<center><p>balboa</p>
+
+<center><img src="best_value_in_balboa.jpg" width="1728" height="972">
+
+</body>
+</html>
