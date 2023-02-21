@@ -27,17 +27,20 @@ font-family: 'PT Serif', serif;
   background-color: #eeeeee;
   color: white;
 }
-
 div.gallery {
   margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
+  border: 5px solid rgb(255, 255, 255);
+  float: center;
+  width: 45%;
+  @media only screen and (min-device-width: 480px)
+  {width: 15%;}
+  
+  
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
+/* div.gallery:hover {
+  border: 5px solid #777;
+} */
 
 div.gallery img {
   width: 100%;
@@ -45,10 +48,9 @@ div.gallery img {
 }
 
 div.desc {
-  padding: 15px;
+  padding: 7px;
   text-align: center;
 }
-
 
 body {
          background-color: rgb(245, 237, 224);
