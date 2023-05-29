@@ -6,12 +6,12 @@ font-family: 'PT Serif', serif;
 
 .topnav {
   overflow: hidden;
-  background-color: #f5f3f5;
+  background-color: #F5E0B7;
 }
 
 .topnav a {
   float: left;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -19,8 +19,8 @@ font-family: 'PT Serif', serif;
 }
 
 .topnav a:hover {
-  background-color: #69747c;
-  color: black;
+  background-color: #e9c276;
+  color: #000000;
 }
 
 .topnav a.active {
