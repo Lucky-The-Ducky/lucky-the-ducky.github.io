@@ -11,12 +11,12 @@ font-family: 'PT Serif', serif;
 
 .topnav {
   overflow: hidden;
-  background-color: #4B5358;
+  background-color: #F5E0B7;
 }
 
 .topnav a {
   float: left;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -24,8 +24,8 @@ font-family: 'PT Serif', serif;
 }
 
 .topnav a:hover {
-  background-color: #69747c;
-  color: black;
+  background-color: #e9c276;
+  color: #000000;
 }
 
 .topnav a.active {
@@ -33,11 +33,14 @@ font-family: 'PT Serif', serif;
   color: white;
 }
 div.gallery {
-  background-color: white;
   margin: 5px;
-  border: 8px solid rgb(255, 255, 255);
+  border: 5px solid rgb(255, 255, 255);
   float: center;
   width: 45%;
+  @media only screen and (min-device-width: 480px)
+  {width: 15%;}
+  
+  
 }
 
 /* div.gallery:hover {
@@ -75,7 +78,7 @@ body {
 
 <div class="topnav">
   <a href=https://luckyh.ong>home</a>
-  <a href=https://luckyh.ong/luckyai>luckyai</a>
+  <a href=https://luckyh.ong/luckyai>lucky ai</a>
 </div>
 
 <div style="padding-left:16px">
