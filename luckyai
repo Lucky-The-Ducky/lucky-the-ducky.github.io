@@ -1,1 +1,95 @@
+---
+title: photography
+permalink: /photography/
+---
+<style>
+body {
+  margin: 0;
+  font-family: 'Lora', serif;
+font-family: 'PT Serif', serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #4B5358;
+}
+
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #69747c;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #eeeeee;
+  color: white;
+}
+div.gallery {
+  background-color: white;
+  margin: 5px;
+  border: 8px solid rgb(255, 255, 255);
+  float: center;
+  width: 45%;
+}
+
+/* div.gallery:hover {
+  border: 5px solid #777;
+} */
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 7px;
+  text-align: center;
+  background-color: white;
+}
+
+body {
+         background-color: rgb(245, 237, 224);
+      }
+</style>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<div class="topnav">
+  <a href=https://luckyh.ong>home</a>
+  <a href=https://luckyh.ong/luckyai>luckyai</a>
+</div>
+
+<div style="padding-left:16px">
+  <h1>luckyai</h1>
+
+    <div class="gallery">
+        <a target="_blank">
+          <img src="https://media.discordapp.net/attachments/598337729880653866/1147280041546354789/IMG_7092.png?width=1052&height=299">
+        </a>
+        <div class="desc">lead developer</div><br>
+      </div>
+
+</div>
+
+</body>
+</html>
 
